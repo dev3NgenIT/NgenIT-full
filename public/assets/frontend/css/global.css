@@ -2,7 +2,7 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: "Poppins", sans-serif;
 }
 
 ul,
@@ -18,11 +18,11 @@ h6 {
     margin: 0px;
     padding: 0px;
 }
-a:hover{
+a:hover {
     text-decoration: none !important;
 }
 
-b{
+b {
     text-decoration: dotted;
 }
 
@@ -83,7 +83,6 @@ ul {
     --navColor: #3e332d;
     --heading: #222222;
 }
-
 
 /* 
 ======================
@@ -153,7 +152,7 @@ ul {
     width: 70px;
     height: 36px;
     color: #fff;
-    margin-left: 7px!important;
+    margin-left: 7px !important;
     margin-top: 55px;
 }
 
@@ -174,7 +173,7 @@ ul {
 }
 
 .footer_nav_list ul li a:hover {
-    color: hsla(30, 11%, 96%, .7);
+    color: hsla(30, 11%, 96%, 0.7);
 }
 
 .footer_social {
@@ -238,7 +237,6 @@ ul {
     text-align: center;
 }
 
-
 /* 
 ======================
  footer section End
@@ -247,14 +245,13 @@ ul {
 
 /* home title */
 
+.business_seftion_content {
+}
 
-.business_seftion_content{}
-
-.home_title{
+.home_title {
     max-width: 760px;
     width: 100%;
     margin: 0px auto 30px;
-    
 }
 
 .home_title_heading {
@@ -267,7 +264,7 @@ ul {
     line-height: 40px;
 }
 
-.home_title_heading span{
+.home_title_heading span {
     position: relative;
 }
 

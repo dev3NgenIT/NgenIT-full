@@ -34,39 +34,9 @@
                     <a href="" class="header_logo_top">
                         <img src="assets/frontend/image/Logo/logo.png" alt="">
                     </a>
-                </div>
-                <!-- right -->
-                <div class="header_top_right">
                     <div class="header_top_nav">
                         <ul>
-                            @if(Auth::check())
-                            <div class="dropdown">
-                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
-                                    data-bs-toggle="dropdown" aria-expanded="false">
-                                    {{ Auth::user()->name }}
-                                </button>
-                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
-                                    <li><a class="dropdown-item" href="#">Profile</a></li>
-                                    <li><a class="dropdown-item" href="#">Order List</a></li>
-                                    <li>
-                                        <div class="dropdown-divider"></div>
-                                        <a class="dropdown-item" href="{{url('logout')}}">Logout</a>
-                                    </li>
-                                </ul>
-                            </div>
-                            @else
-
-                            <li class="nav-item px-3 usermargin active">
-                                <a class="nav-link" href="{{url('login')}}">Login</a>
-                            </li>
-
-                            <li>
-                                <a href="{{ route('register') }}">Create an Account</a>
-                            </li>
-
-                            @endif
-
-                            <li>
+                            <li class="nav_respons">
                                 <span>Tools</span>
                                 <span class="header_top_svg"><svg class="c-icon c-icon--dropdown" viewBox="0 0 192 512">
                                         <polygon points="0,208 96,304 192,208"></polygon>
@@ -89,7 +59,7 @@
                                 </div>
 
                             </li>
-                            <li>
+                            <li class="nav_respons">
                                 <span>Support</span>
                                 <span class="header_top_svg"><svg class="c-icon c-icon--dropdown" viewBox="0 0 192 512">
                                         <polygon points="0,208 96,304 192,208"></polygon>
@@ -106,10 +76,57 @@
                                     </ul>
                                 </div>
                             </li>
-                            <li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- middile -->
+                <div class="header_top_middile">
+                    <div class="header_top_nav">
+                        <ul>
+                            <li class="nav_respons"> <span class="nav_top_ic"><i class="fa-brands fa-whatsapp"></i>
+                                </span> <a href="tel:01782998660">01714243446</a></li>
+                            <li><a href="mailto:sales.ngenitltd@gmail.com"> <span class="nav_top_ic"><i class="fa-regular fa-envelope"></i>
+                                </span>sales.ngenitltd@gmail.com</a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- right -->
+                <div class="header_top_right">
+                    <div class="header_top_nav">
+                        <ul>
+                            @if(Auth::check())
+                            <div class="dropdown">
+                                <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton1"
+                                    data-bs-toggle="dropdown" aria-expanded="false">
+                                    {{ Auth::user()->name }}
+                                </button>
+                                <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton1">
+                                    <li><a class="dropdown-item" href="#">Profile</a></li>
+                                    <li><a class="dropdown-item" href="#">Order List</a></li>
+                                    <li>
+                                        <div class="dropdown-divider"></div>
+                                        <a class="dropdown-item" href="{{url('logout')}}">Logout</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            @else
+
+                            <li class="nav-item px-3 usermargin active nav_respons">
+                                <a class="nav-link" href="{{url('login')}}">Login</a>
+                            </li>
+
+                            <li class="nav_respons">
+                                <a href="{{ route('register') }}">Create an Account</a>
+                            </li>
+
+                            @endif
+
+                            <li class="nav_response_card">
                                 <a href="{{ route('cart.list') }}">
                                     <i class="fa fa-shopping-cart"><span
-                                            style="color: rgb(141, 54, 54);">{{ Cart::getTotalQuantity()}}</span></i>
+                                            style="color: #fff">{{ Cart::getTotalQuantity()}}</span></i>
                                 </a>
                             </li>
 
@@ -1360,7 +1377,11 @@
                         <li>
                             <a href="#">Service</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Consulting services</a></li>
+                                <li><a href="#">Managed services</a></li>
+                                <li><a href="#">Digital HR Services</a></li>
+                                <li><a href="#">Support Services</a></li>
+                                <li><a href="#">View All Services</a></li>
                             </ul>
                         </li>
                     
@@ -1369,36 +1390,50 @@
                 
                 {{-- item --}}
                 <li>
-                    <a href="#">Our Services</a>
+                    <a href="#">Tech Contents</a>
                     <ul class="dl-submenu">
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">By Industry</a>
                             <ul class="dl-submenu">
-                                <li><a href="#">Hardwares</a></li>
-                                <li><a href="#">Softwares</a></li>
-                                <li><a href="#">Digital Services</a></li>
-                                <li><a href="#">View All Products</a></li>
+                           
+                                <li><a href="#">Education</a></li>
+                                <li><a href="#">Healthcare</a></li>
+                                <li><a href="#">Manufacturing</a></li>
+                                <li><a href="#">Public sector</a></li>
+                                <li><a href="#">View All industries</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">By Solution</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Modern infrastructure</a></li>
+                                <li><a href="#">Networking</a></li>
+                                <li><a href="#">Procurement</a></li>
+                                <li><a href="#">Real-time data</a></li>
+                                <li><a href="#">View All Solutions</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">By Technology</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">AI & IoT</a></li>
+                                <li><a href="#">IT optimization</a></li>
+                                <li><a href="#">Cloud</a></li>
+                                <li><a href="#">Cybersecurity</a></li>
+                                <li><a href="#">View All Technologies</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">By Contebts</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Analyst Report</a></li>
+                                <li><a href="#">Article</a></li>
+                                <li><a href="#">Client story</a></li>
+                                <li><a href="#">Tech Journal</a></li>
+                                <li><a href="#">View All Contents</a></li>
                             </ul>
                         </li>
                     
@@ -1407,36 +1442,51 @@
                 
                 {{-- item --}}
                 <li>
-                    <a href="#">Our Services</a>
+                    <a href="#">Partner & Clints</a>
                     <ul class="dl-submenu">
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">Partner</a>
                             <ul class="dl-submenu">
-                                <li><a href="#">Hardwares</a></li>
-                                <li><a href="#">Softwares</a></li>
-                                <li><a href="#">Digital Services</a></li>
-                                <li><a href="#">View All Products</a></li>
+                                {{-- pr --}}
+
+                                <li><a href="#">icddr'b</a></li>
+                                <li><a href="#">UNDP</a></li>
+                                <li><a href="#">Chevron</a></li>
+                                <li><a href="#">Bangladesh Bank</a></li>
+                                <li><a href="#">View All Clients</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">Clints</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Optimum</a></li>
+                                <li><a href="#">Intimicy</a></li>
+                                <li><a href="#">Leads Innovation</a></li>
+                                <li><a href="#">Yongkhar</a></li>
+                                <li><a href="#">View All Partner</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">Principals</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Acronis</a></li>
+                                <li><a href="#">Riverbed</a></li>
+                                <li><a href="#">Pepperel + Fuschs</a></li>
+                                <li><a href="#">Schnieder</a></li>
+                                <li><a href="#">View All Principals</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">Investor</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Not Done</a></li>
+                                <li><a href="#">Healthcare</a></li>
+                                <li><a href="#">Manufacturing</a></li>
+                                <li><a href="#">Public sector</a></li>
+                                <li><a href="#">View All Investors</a></li>
                             </ul>
                         </li>
                     
@@ -1445,36 +1495,46 @@
                 
                 {{-- item --}}
                 <li>
-                    <a href="#">Our Services</a>
+                    <a href="#">Contact Us</a>
                     <ul class="dl-submenu">
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">Contact</a>
                             <ul class="dl-submenu">
-                                <li><a href="#">Hardwares</a></li>
-                                <li><a href="#">Softwares</a></li>
-                                <li><a href="#">Digital Services</a></li>
-                                <li><a href="#">View All Products</a></li>
+                                <li><a href="#">Direct Reach</a></li>
+                                <li><a href="#">Social Connects</a></li>
+                                <li><a href="#">Datasheets</a></li>
+                                <li><a href="#">About Us</a></li>
+                                <li><a href="#">Social logos</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">service</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Webinars</a></li>
+                                <li><a href="#">Presentations</a></li>
+                                <li><a href="#">PoCs</a></li>
+                                <li><a href="#">Knowledgebase</a></li>
+                                <li><a href="#">Request Service Call</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">Event</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Online</a></li>
+                                <li><a href="#">Venues</a></li>
+                                <li><a href="#">Newsroom</a></li>
+                                <li><a href="#">Request Events</a></li>
                             </ul>
                         </li>
 
                         <li>
-                            <a href="#">Products</a>
+                            <a href="#">Career</a>
                             <ul class="dl-submenu">
-                                <li><a href="#"></a></li>
+                                <li><a href="#">Join our team</a></li>
+                                <li><a href="#">Available Jobs</a></li>
+                                <li><a href="#">Request Free Trainings</a></li>
                             </ul>
                         </li>
                     
@@ -1484,11 +1544,11 @@
 
                 {{-- item --}}
                 <li>
-                    <a href="#">Connect Us</a>
+                    <a href="#">Shop</a>
                     <ul class="dl-submenu">
-                        <li><a href="#">Fine Jewelry</a></li>
-                        <li><a href="#">Fashion Jewelry</a></li>
-                        <li><a href="#">Watches</a></li>
+                        <li><a href="#">By Industry</a></li>
+                        <li><a href="#">Hardware</a></li>
+                        <li><a href="#">Software</a></li>
                     </ul>
                 </li>
 

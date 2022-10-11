@@ -18,9 +18,7 @@ use App\Http\Controllers\SolutionController;
 //Frontend
 
     // header 
-    Route::get('/head',function(){
-        return view('frontend.header');
-    });
+   
 
     Route::get('/contttactus',function(){
         return view('frontend.contttactus');
@@ -75,7 +73,9 @@ use App\Http\Controllers\SolutionController;
 // Route::get('/contact', [HomeController::class, 'contact']);
 // Route::post('/dynamic_dependent/fetch', [HomeController::class, 'fetch'])->name('dynamicdependent.fetch');
 // Route::post('/contact_us', [HomeController::class, 'contactUs'])->name('contactus.store');
-
+Route::get('head',function (){
+   return view('frontend.header') ;
+});
 Route::get('/',[HomeController::class,'index'])->name('home');
 Route::get('/contact',[HomeController::class,'contact']);
 Route::post('/dynamic_dependent/fetch',[HomeController::class,'fetch'])->name('dynamicdependent.fetch');

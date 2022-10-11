@@ -58,6 +58,38 @@
                 <div class="apple_brand">
                     {{-- image --}}
                     <div class="apple_brand_thumbnail">
+                        <img src="assets/frontend/image/cart/laptop-mac.png" alt="">
+                    </div>
+                    
+                    {{-- content --}}
+
+                    <div class="apple_brand_content">
+                        <p class="apple_brand_name">Mac</p>
+                        <p class="apple_brand_text">Game-changing performance, simplified IT and excellent value prove that Mac™ means business.</p>
+                        <a href="" class="product_button" tabindex="0">Add to Basket</a>
+                    </div>
+                </div>
+                
+                <!-- item -->
+                <div class="apple_brand">
+                    {{-- image --}}
+                    <div class="apple_brand_thumbnail">
+                        <img src="assets/frontend/image/cart/laptop-mac.png" alt="">
+                    </div>
+                    
+                    {{-- content --}}
+
+                    <div class="apple_brand_content">
+                        <p class="apple_brand_name">Mac</p>
+                        <p class="apple_brand_text">Game-changing performance, simplified IT and excellent value prove that Mac™ means business.</p>
+                        <a href="" class="product_button" tabindex="0">Add to Basket</a>
+                    </div>
+                </div>
+
+                <!-- item -->
+                <div class="apple_brand">
+                    {{-- image --}}
+                    <div class="apple_brand_thumbnail">
                         <img src="assets/frontend/image/cart/iPad.png" alt="">
                     </div>
                     
