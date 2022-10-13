@@ -18,7 +18,17 @@ use App\Http\Controllers\SolutionController;
 //Frontend
 
     // header 
-   
+   Route::get('/about', function(){
+    return view('frontend.about');
+   });
+
+    Route::get('/LetterForm',function(){
+        return view('frontend.LetterForm');
+    });
+
+    Route::get('/faq',function(){
+        return view('frontend.faq');
+    });
 
     Route::get('/contttactus',function(){
         return view('frontend.contttactus');

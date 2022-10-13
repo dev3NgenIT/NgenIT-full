@@ -136,6 +136,25 @@
     .shop_product_brand_list {
         padding-left: 25%;
     }
+
+   /* faq css */
+
+    .faq_wrapper{
+    flex-direction: row;
+    }
+
+    .faq_tab_left {
+    width: 320px;
+}
+
+.faq_tab_content{
+    width: calc(100% - 320px);
+}
+
+.aboutus_awrad_wrapper{
+    grid-template-columns: repeat(2, 1fr);
+}
+
 }
 
 @media (min-width: 991px) {
@@ -250,6 +269,18 @@
     .clint_help_padding {
         padding: 50px 40px;
     }
+
+    .Right_faq_form{
+    max-width: 320px;
+    width: 100%;
+    }
+
+    .faq_form{
+        width: calc(100% - 320px);
+    }
+    .aboutus_awrad_wrapper{
+    grid-template-columns: repeat(3, 1fr);
+}
 }
 
 @media (min-width: 1200px) {

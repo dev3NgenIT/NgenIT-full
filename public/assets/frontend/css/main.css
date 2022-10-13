@@ -2686,3 +2686,160 @@ span.service_page_pill {
     display: block;
     width: 100%;
 }
+
+
+/* faq css */
+
+.faq_wrapper{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.faq_tab_title {
+    text-align: center;
+    font-size: 24px;
+    color: var(--mainColor);
+    margin-bottom: 15px;
+}
+
+.faq_tab_left {
+    width: 100%;
+    background: #ae0a460a;
+    padding: 20px 0px;
+}
+
+.faq_tab_content{
+    width: 100%;
+    margin: 20px;
+}
+
+.faq_item {
+    border: none;
+    text-align: left !important;
+    border-radius: 0px !important;
+    color: var(--heading);
+    margin: 5px 0px;
+}
+
+.faq_item.active::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 96.5%;
+    transform: translateY(-50%) rotate(-45deg);
+    border-top: 8px solid transparent;
+    border-left: 8px solid transparent;
+    border-right: 8px solid var(--mainColor);
+    border-bottom: 8px solid var(--mainColor);
+}
+
+.faq_item:hover {
+    color: var(--heading);
+}
+
+.faq_item.active{
+    background-color: var(--mainColor) !important;
+    position: relative;
+}
+
+.neweLetter_title p {
+    text-align: center;
+    color: var(--mainColor);
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.news_form_inner{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.form_newsletter {
+    height: 40px;
+    width: calc(100% - 160px);
+    background-color: white;
+    color: var(--heading);
+    font-size: 15px;
+    padding: 0px 15px;
+    border: none;
+    outline: none;
+}
+
+.newsLetter_btn {
+    width: 150px;
+    height: 40px;
+    background-color: #fb1b65;
+    border: none;
+    outline: none;
+    color: #fff;
+}
+
+.news_form_text p {
+    text-align: center;
+    margin-bottom: 0px;
+    font-size: 14px;
+    color: #fff;
+    font-family: cursive;
+    margin-top: 10px;
+}
+
+.neweLetter_image {
+    max-width: 85px;
+    margin: 0px auto;
+    padding-bottom: 20px;
+}
+.neweLetter_image img{
+    width: 100%;
+    display: block;
+    filter: brightness(0) invert(1);
+}
+
+.aboutus_awrad_wrapper{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+.about_seo{
+    background: url(../image/cart/seobackground.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 100px 50px;
+}
+
+.about_seo_wrapper{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about_seo_imgage{
+    padding: 25px 25px 0;
+}
+.about_seo_imgage img{
+    height: 230px;
+    width: 230px;
+    border-radius: 50%;
+    display: block;
+    object-fit: cover;
+    border:2.0px solid rgb(247,246,245);
+}
+
+.about_seo_content{
+    padding: 25px 25px 0;
+}
+
+.about_seo_text{
+    margin: 0 0 30px;
+    padding: 9px 20px 0 19px;
+    border-left: 1px solid #ddd;
+    color: #fff;
+}
