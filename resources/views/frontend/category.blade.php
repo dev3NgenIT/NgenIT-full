@@ -130,6 +130,61 @@
     </div>
 </section>
 
+<!-- network cable -->
+<section class="network_cable section_padding">
+    <div class="container">
+
+        <div class="section_title">
+            <h3 class="title_top_heading">Adapters</h3>
+        </div>
+
+        <div class="network_cable_wrapper">
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+        </div>
+
+        <div class="category_all_btn">
+            <a href="" class="product_button">Shop all cables</a>
+        </div>
+
+    </div>
+</section>
+
 <section class="popular_product_section section_padding">
         <!-- container -->
         <div class="container">
@@ -275,6 +330,212 @@
                 </div>
             </div>
         </div>
+</section>
+
+<!-- network cable -->
+<section class="network_cable section_padding" style="background: #F7F6F5;">
+    <div class="container">
+
+        <div class="section_title">
+            <h3 class="title_top_heading">By brand</h3>
+        </div>
+
+        <div class="network_cable_wrapper">
+
+         <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/apc.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+             <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/cisco.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+             <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/axiom.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+             <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/lexmark.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/2.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/3.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/hdmi.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+        </div>
+
+        <div class="category_all_btn">
+            <a href="" class="product_button">Shop all cables</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- network cable -->
+<section class="network_cable section_padding">
+    <div class="container">
+
+        <div class="section_title">
+            <h3 class="title_top_heading">Display cables</h3>
+        </div>
+
+        <div class="network_cable_wrapper">
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+        </div>
+
+        <div class="category_all_btn">
+            <a href="" class="product_button">Shop all cables</a>
+        </div>
+
+    </div>
+</section>
+
+<!-- network cable -->
+<section class="network_cable section_padding" style="background: #F7F6F5;">
+    <div class="container">
+
+        <div class="section_title">
+            <h3 class="title_top_heading">Network cables</h3>
+        </div>
+
+        <div class="network_cable_wrapper">
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/2.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/3.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/hdmi.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+            <!-- item -->
+            <div class="category_item_inner">
+                <!-- image -->
+                <div class="category_item_image">
+                    <img src="assets/frontend/image/brand/1.png" alt="">
+                </div>
+                <!-- title -->
+                <div class="category_item_title">Ethernet</div>
+            </div>
+
+        </div>
+
+        <div class="category_all_btn">
+            <a href="" class="product_button">Shop all cables</a>
+        </div>
+
+    </div>
 </section>
 
 @endsection
