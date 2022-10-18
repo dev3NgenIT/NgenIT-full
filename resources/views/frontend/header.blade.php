@@ -147,7 +147,7 @@
                 <div class="header_nav">
                     <ul>
                         <!-- nav item -->
-                        <li class="nav_toogler ">
+                        <li class="nav_toogler">
                             <a>
                                 <span>Our Services</span>
                                 <span class="header_top_svg"><svg class="c-icon c-icon--dropdown" viewBox="0 0 192 512">
@@ -1301,6 +1301,7 @@
                                 </div>
                             </div>
                         </li>
+                        
                     </ul>
                 </div>
 
@@ -1332,7 +1333,7 @@
         </div>
 
         <!-- mobile header -->
-        <div id="dl-menu" class="dl-menuwrapper">
+        <!-- <div id="dl-menu" class="dl-menuwrapper">
             <button id="mobileBNT" class="dl-trigger">
                 <ul>
                     <li></li>
@@ -1553,8 +1554,9 @@
                 </li>
 
             </ul>
-        </div>
+        </div> -->
         <!-- mobile header end -->
+
     </header>
 
     <!-- bootstrap jsBundle -->

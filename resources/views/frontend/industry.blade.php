@@ -1,7 +1,6 @@
 @extends('frontend.master')
 
 @section('content')
-
 <!-- banner single page start -->
 
 <section class="banner_single_page">
@@ -56,7 +55,7 @@
                     <div class="industy_solution_item_text">
                         <p>Adopt rugged and easy-to-manage solutions and services that help you increase productivity
                             and reduce construction costs.</p>
-                              </div>
+                    </div>
                 </div>
                 <a href="" class="industry_solution_item_button">Explore our solutions →</a>
             </div>
@@ -532,6 +531,7 @@
     </div>
 </section>
 
+
 <!-- our clint tab end -->
 
 <!-- we serve -->
@@ -545,7 +545,9 @@
 
                 <div class="solution_feature_title">Public sector industries</div>
 
-                <p class="solution_feature_text">Insight Public Sector has decades of experience helping organizations achieve their mission. We offer end-to-end IT solutions and discounted products through purchasing contracts.</p>
+                <p class="solution_feature_text">Insight Public Sector has decades of experience helping organizations
+                    achieve their mission. We offer end-to-end IT solutions and discounted products through purchasing
+                    contracts.</p>
 
                 <a href="" class="product_button">Explore Insight Public Sector</a>
             </div>

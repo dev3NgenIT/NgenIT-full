@@ -17,7 +17,14 @@ use App\Http\Controllers\SolutionController;
 
 //Frontend
 
-    // header 
+ Route::get('/categorypage', function(){
+    return view('frontend.category');
+});
+
+ Route::get('/brandpage', function(){
+    return view('frontend.brand');
+   });
+
    Route::get('/about', function(){
     return view('frontend.about');
    });

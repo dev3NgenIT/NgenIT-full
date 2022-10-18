@@ -131,6 +131,7 @@
 <!-- about seo -->
 <div class="about_seo">
     <div class="container">
+
         <div class="about_seo_wrapper">
 
             <!-- image -->
@@ -144,13 +145,18 @@
                     <h4>"Our goal at Insight is to make meaningful connections that positively impact the lives of the
                         people we serve, including our clients, partners and teammates."</h4>
                     <p>
-                        <strong>Md rasel Sir</strong>
-                        <small>SEO NGenit</small>
+                        <strong>Md rasel sir</strong>
+                        <small>CEO NGenit</small>
                     </p>
                 </div>
             </div>
 
         </div>
+
+        <div class="about_ceo_btn">
+            <a href="" class="product_button">Meet our leadership</a>
+        </div>
+
     </div>
 </div>
 <!-- about seo end -->
