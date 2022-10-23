@@ -2,15 +2,19 @@
     .main_footer_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .main_footer_item:not(:first-child) {
         padding-left: 48px;
     }
+
     .main_footer_item:nth-child(3) {
         padding-left: 0px !important;
     }
+
     .feature_content_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .product_veiw_details_wrapper {
         /* grid-template-columns: repeat(2, 1fr); */
     }
@@ -34,12 +38,15 @@
     .submenu_single_page {
         display: block;
     }
+
     .main_footer_wrapper {
         grid-template-columns: repeat(4, 1fr);
     }
+
     .feature_content_wrapper {
         grid-template-columns: repeat(4, 1fr);
     }
+
     .industry_section_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -115,6 +122,7 @@
     .business_seftion_wrapper {
         grid-template-columns: repeat(3, 1fr);
     }
+
     .software_show_wrapper {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -137,23 +145,23 @@
         padding-left: 25%;
     }
 
-   /* faq css */
+    /* faq css */
 
-    .faq_wrapper{
-    flex-direction: row;
+    .faq_wrapper {
+        flex-direction: row;
     }
 
     .faq_tab_left {
-    width: 320px;
-}
+        width: 320px;
+    }
 
-.faq_tab_content{
-    width: calc(100% - 320px);
-}
+    .faq_tab_content {
+        width: calc(100% - 320px);
+    }
 
-.aboutus_awrad_wrapper{
-    grid-template-columns: repeat(2, 1fr);
-}
+    .aboutus_awrad_wrapper {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
 }
 
@@ -162,16 +170,20 @@
         flex-direction: row-reverse !important;
         gap: 0px;
     }
+
     .solution_feature_wrapper {
         flex-direction: row;
         gap: 0px;
     }
+
     .solution_feature_content {
         width: 45%;
     }
+
     .solution_feature_image {
         width: 45%;
     }
+
     .product_veiw_details_wrapper {
         /* grid-template-columns: repeat(3, 1fr); */
     }
@@ -254,6 +266,7 @@
     .business_seftion_wrapper {
         grid-template-columns: repeat(4, 1fr);
     }
+
     .software_show_wrapper {
         grid-template-columns: repeat(3, 1fr);
     }
@@ -270,40 +283,41 @@
         padding: 50px 40px;
     }
 
-    .Right_faq_form{
-    max-width: 320px;
-    width: 100%;
+    .Right_faq_form {
+        max-width: 320px;
+        width: 100%;
     }
 
-    .faq_form{
+    .faq_form {
         width: calc(100% - 320px);
     }
-    .aboutus_awrad_wrapper{
-    grid-template-columns: repeat(3, 1fr);
-}
+
+    .aboutus_awrad_wrapper {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .techdeals_product_altra {
+        width: 48%;
+    }
 }
 
 @media (min-width: 1200px) {
-    .header_top_left {
-    }
+    .header_top_left {}
+
     .header_logo {
         display: block;
     }
+
     .header_nav {
         display: block;
     }
+
     .header_search {
         max-width: 270px;
         height: 36px;
         width: 100%;
-        position: relative;
     }
-    .header_search {
-        max-width: 270px;
-        height: 36px;
-        width: 100%;
-        position: relative;
-    }
+
     .industry_section_wrapper {
         grid-template-columns: repeat(3, 1fr);
     }

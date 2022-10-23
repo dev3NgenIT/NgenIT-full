@@ -17,6 +17,14 @@ use App\Http\Controllers\SolutionController;
 
 //Frontend
 
+ Route::get('/clintdtab', function(){
+    return view('frontend.clintdtab');
+});
+
+ Route::get('/techdeals', function(){
+    return view('frontend.techdeals');
+});
+
  Route::get('/categorypage', function(){
     return view('frontend.category');
 });

@@ -1306,29 +1306,28 @@
                 </div>
 
                 <!-- header serch box -->
-                <div class="header_search">
-                    <div class="header_search_inner">
-                        <form action="" method="POST">
-                            <input type="text" name="title" placeholder="What can we help you find?"
-                                class="input_control" id="search">
-                            <!-- icon -->
-                            <div class="search_icon">
-                                <span><svg class="cx_1630815321671header_icon_size cx_1630815321671_primary_search_icon"
-                                        id="search" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
-                                        viewBox="0 0 20 20">
-                                        <path class="cx_1630815321671_svg_icons" id="Search-2" data-name="Search"
-                                            d="M19.724,18.547,14.757,13.58a8.336,8.336,0,1,0-1.177,1.177l4.968,4.968a.832.832,0,1,0,1.177-1.177ZM8.317,14.975a6.658,6.658,0,1,1,6.658-6.658,6.658,6.658,0,0,1-6.658,6.658Z"
-                                            transform="translate(0.032 0.032)" fill="#1E272E"></path>
-                                    </svg></span>
-                            </div>
-                        </form>
+                <div class="header_search" id="header_search_m">
+
+                    <input type="text" name="title" placeholder="What can we help you find?"
+                        class="input_control" id="search">
+                    <!-- icon -->
+                    <div class="search_icon">
+                        <span><svg class="cx_1630815321671header_icon_size cx_1630815321671_primary_search_icon"
+                                id="search" xmlns="http://www.w3.org/2000/svg" width="18" height="18"
+                                viewBox="0 0 20 20">
+                                <path class="cx_1630815321671_svg_icons" id="Search-2" data-name="Search"
+                                    d="M19.724,18.547,14.757,13.58a8.336,8.336,0,1,0-1.177,1.177l4.968,4.968a.832.832,0,1,0,1.177-1.177ZM8.317,14.975a6.658,6.658,0,1,1,6.658-6.658,6.658,6.658,0,0,1-6.658,6.658Z"
+                                    transform="translate(0.032 0.032)" fill="#1E272E"></path>
+                            </svg></span>
+                    </div>
+                        
                         <table class="table table-striped table-inverse table-responsive d-table"
                             style="background-color: white">
                             <tbody>
                             </tbody>
                         </table>
-                    </div>
                 </div>
+
             </div>
         </div>
 

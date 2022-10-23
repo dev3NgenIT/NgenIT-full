@@ -420,18 +420,15 @@ li.nav_toogler.active .sub_nav {
     max-width: 100%;
     height: 36px;
     width: 100%;
-    position: relative;
     margin: 20px 0px;
+    position: relative;
 }
 
 .input_control:focus~.header_search {
-    width: 400px;
+    position: absolute;
+    width: 100%;
 }
 
-.header_search_inner {
-    width: 100%;
-    height: 100%;
-}
 
 .input_control {
     height: 100%;
@@ -2941,7 +2938,7 @@ span.service_page_pill {
     display: inline-block;
 }
 
-.category_item_title{
+.category_item_title {
     color: #ae0a46;
     margin-bottom: 5px;
     margin: 35px 0 0;
@@ -2957,4 +2954,153 @@ span.service_page_pill {
 .category_all_btn {
     text-align: center;
     margin-top: 20px;
+}
+
+
+
+
+
+/* teckdeals secton */
+
+.techdeals_product_wrapper {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-gap: 30px;
+}
+
+.techdeals_product_thumbnail img {
+    display: block;
+    margin: 0 auto 12px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.techdeals_product_content {}
+
+.techdeals_product_title {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    font-size: 20px;
+    color: #6f062d;
+    font-family: monospace;
+    line-height: 19px;
+}
+
+.techdeals_product_price {
+    color: #5f5753;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 500;
+}
+
+.techdeals_product_button a {
+    background-color: #fff;
+    border: 1px solid #5f5753;
+    color: #ae0a46;
+    display: inline-block;
+    font-weight: 400;
+    padding: 10px 22px;
+    font-weight: 500;
+    transition: all linear 0.3s;
+}
+
+.techdeals_product_button a:hover {
+    color: #fff;
+    background-color: #5f5753;
+}
+
+/* refur css */
+
+.refur_category_wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.refur_category_item {
+    text-align: center;
+    padding: 20px;
+}
+
+.refur_cateItem_thumbnail {
+    display: grid;
+    place-content: center;
+}
+
+.refur_cateItem_thumbnail img {
+    max-width: 100%;
+    display: block;
+}
+
+.refur_cateItem_name a {
+    color: #4e041f;
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 300;
+    text-align: center;
+}
+
+
+.refur_brand_wrapper {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 0px 20px;
+}
+
+.refur_brand_item {
+    text-align: center;
+    padding: 20px;
+}
+
+.refur_brand_item img {
+    display: block;
+    max-width: 100%;
+}
+
+.product_altra_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+.techdeals_product_altra {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 20px;
+    width: 100%;
+}
+
+
+
+.tabContent_content {
+    max-width: calc(100% - 220px);
+    width: 100%;
+}
+
+.clint_sub_tabs {
+    margin-top: 50px;
+    width: 220px;
+    background: var(--topHover) !important;
+    height: auto;
+    padding-bottom: 100px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px #00000024;
+}
+
+.clint_sub_tabs button {
+    text-align: left !important;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff !important;
+}
+
+.clint_sub_tabs .nav-link.active {
+    color: var(--mainColor) !important;
+    background-color: #fff !important;
 }
